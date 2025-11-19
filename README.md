@@ -37,7 +37,7 @@ Scaler parameters saved to scaler_params.json
 ### inference process
 
 ```text
-root@838e9d354ef9:/home/jd/t/git/mlp# ./mlp_inference
+root@838e9d354ef9:/home/jd/t/git/mlp# ./build/mlp_inference
 Model loaded successfully
   Input size: 10
   Output size: 3
@@ -50,5 +50,6 @@ Prediction result:
   Probabilities: Class 0: 0.697764, Class 1: 0.0985958, Class 2: 0.20364
   Raw logits: Class 0: 1.00371, Class 1: -0.953139, Class 2: -0.227815
   Probability sum: 1 (should be ~1.0)
+
 ```
 
